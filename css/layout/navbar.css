@@ -1,0 +1,31 @@
+
+.navbar {
+    height: 100%;
+    width: 226px;
+    background-color:  rgb(86, 86, 195);
+    position: relative;
+}
+
+.navbar .nav-item {
+    width: 100%;
+    height: 40px;
+    padding-left: 40px; /* Đệm bên trái của mỗi item là 40px, giúp tạo không gian cho biểu tượng (icon) */
+    background-repeat: no-repeat;  /* Không lặp lại hình nền */
+    background-size: 20px 20px; /* Kích thước của hình nền */
+    background-position:  16px center; /* Đặt vị trí hình nền cách từ bên trái là 16px và căn giữa theo chiều dọc */
+
+    line-height: 40px; /* Căn chỉnh văn bản trong */
+    color: #fff;  /* Khi hover, con trỏ chuột sẽ chuyển thành hình bàn tay */
+}
+.navbar .nav-item:hover {
+    background-color: rgb(38, 201, 146);
+    cursor: pointer;
+}
+.navbar .item-bottom {
+    position: absolute;
+    background-color: rgb(86, 86, 195);
+    bottom: 0;
+}
+
+
+
